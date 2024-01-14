@@ -6,16 +6,16 @@ public class AddNum_Using_dowhile
 	{
 		int Sum =0;
 		
-		int i = 10;
+		int i = 20;
 		do
 		{
-			if(i%2==0)
+			if(i%2!=0)
 			{
 				Sum = Sum + i;
 			}
 			i++;
 		}
-		while(i<=20);
+		while(i<=30);
 		System.out.println("Addition of Even Number is :"+Sum);
 		
 	}
